@@ -105,4 +105,24 @@ public class Titik {
         return Math.sqrt(selisihX * selisihX + selisihY * selisihY);
     }
 
+    //refleksiX
+    void refleksiX() {
+        ordinat = ordinat * -1 ;
+    }
+
+    //refleksiY
+    void refleksiY() {
+        absis = absis * -1 ;
+    }
+
+    //getRefleksiX
+    Titik getRefleksiX() {
+        return new Titik(absis, ordinat * -1) ;
+    }
+
+    //getRefleksiY
+    Titik getRefleksiY() {
+        return new Titik(absis * -1, ordinat) ;
+    }
+
 } //end class Titik
