@@ -1,3 +1,8 @@
+/* Nama File   : MTitik.java 
+Deskripsi   : berisi atribut dan method dalam class titik
+Pembuat     : Khanza Qaila/24060124120011
+Tanggal     : 23 Februari 2026*/
+
 public class MTitik {
     public static void main(String[] args) {
         Titik T1 = new Titik(); // Membuat objek T1 (0,0)

@@ -3,7 +3,6 @@ Deskripsi   : berisi atribut dan method dalam class titik
 Pembuat     : Khanza Qaila/24060124120011
 Tanggal     : 23 Februari 2026*/
 
-
 public class Titik {
     //**ATRIBUT**
     double absis;
