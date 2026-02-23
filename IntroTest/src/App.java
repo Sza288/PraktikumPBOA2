@@ -70,8 +70,7 @@ public class App {
  System.out.println("\nTotal Nilai: " + total);
  System.out.println("Rata-rata: " + rataRata);
 
- // Mencari nilai tertinggi dan terendah dengan while
-loop
+ // Mencari nilai tertinggi dan terendah dengan while loop
  int tertinggi = nilaiUjian[0];
  int terendah = nilaiUjian[0];
  int index = 1;
