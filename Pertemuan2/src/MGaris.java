@@ -15,8 +15,8 @@ public class MGaris {
         Garis L1 = new Garis(T1, T2); 
         Garis L2 = new Garis(T3, T4); 
 
-        
-        System.out.println("Garis 1");
+        System.out.println("Jumlah Garis : " + Garis.getCounterGaris());
+        System.out.println("\nGaris 1");
         L1.printGaris();
         System.out.println("Panjang : " + L1.getPanjang());
         System.out.println("Gradien : " + L1.getGradien());
@@ -35,7 +35,5 @@ public class MGaris {
         System.out.println("Apakah sejajar antar L1 dan L2 ? " + L1.isSejajar(L2));
         System.out.println("Apakah tegak lurus antar L1 dan L2 ? " +L1.isTegakLurus(L2));
 
-        // Menggunakan counterGaris
-        System.out.println("\nTotal jumlah garis : " + Garis.getCounterGaris());
     }
 }
