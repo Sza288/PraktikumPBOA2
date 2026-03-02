@@ -41,7 +41,7 @@ public class MTitik {
         //TestrefleksiY
         T3.refleksiY();
         System.out.print("Refleksi Y : ");
-        T3.printTitik()
+        T3.printTitik();
         //TestgetRefleksiX
         Titik T4 = T3.getRefleksiX();
         System.out.print(" Hasil Refleksi: ");
