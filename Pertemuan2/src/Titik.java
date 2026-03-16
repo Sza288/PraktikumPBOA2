@@ -6,74 +6,74 @@ Tanggal     : 23 Februari 2026*/
 
 public class Titik {
     //**ATRIBUT**
-    double absis;
-    double ordinat;
-    static int counterTitik = 0;
+    private double absis;
+    private double ordinat;
+    private static int counterTitik = 0;
 
     //**METHOD**
     //konstruktor untuk membuat titik (0,0)
-    Titik(){
+    public Titik(){
         absis = 0;
         ordinat = 0;
         counterTitik++;
     }
 
-    // konstruktor overloading
-    Titik(double x, double y) {
-        absis = x;
-        ordinat = y;
-        counterTitik++;
-    }
-
-    // //konstruktor untuk membuat dengan nilai absis dan ordinat tertentu
-    // Titik(double absis , double ordinat){
-    //     this.absis = absis;
-    //     this.ordinat = ordinat;
+    // // konstruktor overloading
+    // Titik(double x, double y) {
+    //     absis = x;
+    //     ordinat = y;
     //     counterTitik++;
     // }
+
+    //konstruktor untuk membuat dengan nilai absis dan ordinat tertentu
+    public Titik(double absis , double ordinat){
+        this.absis = absis;
+        this.ordinat = ordinat;
+        counterTitik++;
+    }
 
     //konstruktur untuk membuat titik (0,0)
     // Titik(){
     //     this(0,0) ;
     // }
 
-    void printCounterTitik(){
+    public void printCounterTitik(){
         System.out.println(this.counterTitik);
     }
 
     //mengembalikan nilai counterTitik
-    static int getCounterTitik() {
+    public static int getCounterTitik() {
         return counterTitik;
     }
 
     //mengembalikan nilai absis
-    double getAbsis(){
+    public double getAbsis(){
         return absis;
     }
 
     //mengembalikan nilai ordinat
-    double getOrdinat(){
+    public double getOrdinat(){
         return ordinat;
     }
 
     //mengeset absis titik dengan nilai baru x
-    void setAbsis(double x){
+    public void setAbsis(double x){
         absis = x;
     }
 
     //mengeset ordinat titik dengan nilai baru y
-    void setOrdinat(double y){
+    public void setOrdinat(double y){
         ordinat = y;
     }
 
     //menggeser nilai absis dan ordinat titik masing-masing sejauh x dan y
-    void geser(double x, double y){
+    public void geser(double x, double y){
         absis = absis + x;
         ordinat = ordinat + y;
     }
 
     //mencetak koordinat titik
-    void printTitik(){
+    public void printTitik(){
         System.out.println("Titik (" + absis + "," + ordinat + ")");
     }
 
@@ -93,12 +93,12 @@ public class Titik {
     }
 
     //getJarakPusat
-    double getJarakPusat() {
+    public double getJarakPusat() {
         return Math.sqrt(this.absis * this.absis + this.ordinat * this.ordinat);
     }
 
     //getJarak
-    double getJarak(Titik T) {
+    public double getJarak(Titik T) {
         double selisihX = this.absis - T.getAbsis();
         double selisihY = this.ordinat - T.getOrdinat();
 
@@ -106,22 +106,22 @@ public class Titik {
     }
 
     //refleksiX
-    void refleksiX() {
+    public void refleksiX() {
         ordinat = ordinat * -1 ;
     }
 
     //refleksiY
-    void refleksiY() {
+    public void refleksiY() {
         absis = absis * -1 ;
     }
 
     //getRefleksiX
-    Titik getRefleksiX() {
+    private Titik getRefleksiX() {
         return new Titik(absis, ordinat * -1) ;
     }
 
     //getRefleksiY
-    Titik getRefleksiY() {
+    public Titik getRefleksiY() {
         return new Titik(absis * -1, ordinat) ;
     }
 
