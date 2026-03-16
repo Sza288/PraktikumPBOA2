@@ -1,5 +1,7 @@
-/* Nama File   : Tendik.java
- * Deskripsi   : Implementasi tenaga kependidikan dengan Bidang, BUP 55, dan tunjangan 1% */
+/*  Nama File   : Tendik.java
+ *  Deskripsi   : berisi atribut dan method dalam class Tendik
+ *  Pembuat     : Khanza Qaila/24060124120011
+ *  Tanggal     : 9 Maret 2026 */
 
 import java.time.Period;
 import java.time.LocalDate;
@@ -13,7 +15,7 @@ public class Tendik extends Pegawai {
         super(NIP, Nama, tglLahir, tmt, gajiPokok);
         this.bidang = bidang;
     }
-
+    //Method
     @Override
     public void printInfo() {
         System.out.println("=== Tendik ===");

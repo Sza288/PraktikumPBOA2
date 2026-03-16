@@ -1,5 +1,5 @@
-/*  Nama File   : Pegawai.java
- *  Deskripsi   : berisi atribut dan method dalam class Pegawai
+/*  Nama File   : DosenTetap.java
+ *  Deskripsi   : berisi atribut dan method dalam class Dosen Tetap
  *  Pembuat     : Khanza Qaila/24060124120011
  *  Tanggal     : 9 Maret 2026 */
 

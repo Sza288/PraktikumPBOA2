@@ -1,4 +1,4 @@
-/* Nama File   : Main.java
+/* Nama File   : MPegawai.java
  * Deskripsi   : Berisi implementasi pembuatan objek DosenTetap, DosenTamu, dan Tendik
  * Pembuat     : Khanza Qaila/24060124120011
  * Tanggal     : 14/03/2026 */

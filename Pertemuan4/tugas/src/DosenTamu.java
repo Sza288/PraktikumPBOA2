@@ -1,5 +1,5 @@
 /* Nama File   : DosenTamu.java 
- *  Deskripsi   : berisi atribut dan method dalam class Pegawai
+ *  Deskripsi   : berisi atribut dan method dalam class Dosen Tamu
  *  Pembuat     : Khanza Qaila/24060124120011
  *  Tanggal     : 9 Maret 2026 */
 

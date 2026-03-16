@@ -12,6 +12,7 @@ public class Pegawai {
     protected LocalDate tglLahir, tmt;
     protected double gajiPokok;
 
+    //Konstruktor dengan parameter
     public Pegawai(String NIP, String Nama, LocalDate tglLahir, LocalDate tmt, double gajiPokok) {
         this.NIP = NIP;
         this.Nama = Nama;
@@ -20,6 +21,7 @@ public class Pegawai {
         this.gajiPokok = gajiPokok;
     }
 
+    //Method
     public void printInfo() {
         System.out.println("NIP : " + NIP);
         System.out.println("Nama : " + Nama);
