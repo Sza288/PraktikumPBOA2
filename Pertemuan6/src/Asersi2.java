@@ -21,7 +21,7 @@ public class Asersi2 {
         double jarijari = 0 ; 
         assert (jarijari>0) : "jari jari tidak boleh noll" ;
         Lingkaran l = new Lingkaran(jarijari);
-        double kelilingLingkaran = l.hitungKeliling():
+        double kelilingLingkaran = l.hitungKeliling();
         System.out.println("keliling lingkaran = " + kelilingLingkaran);
     }
 }
