@@ -27,7 +27,7 @@ public class Persegi extends BangunDatar {
     }
 
     //Selektor
-    public double Getsisi(){
+    public double getsisi(){
         return sisi ;
     }
 

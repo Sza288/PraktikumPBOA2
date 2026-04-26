@@ -16,9 +16,9 @@ public class Lingkaran extends BangunDatar {
     }
 
     //Konstruktor dengan parameter
-    public Lingkaran(double jari,String Warna , String Border){
+    public Lingkaran(double jari,String warna , String Border){
         this.jari = jari;
-        setWarna(Warna);
+        setWarna(warna);
         setBorder(Border);
         setJmlSisi(1);
     }

@@ -2,7 +2,7 @@ public class MBangunDatar {
     public static void main(String[] args) {
         //Menggunakan konstruktor dengan parameter
         Persegi p1 = new Persegi(4, "Merah", "Putih");
-        Lingkaran l1 = new Lingkaran(4, "Biru", "Hitam");
+        Lingkaran l1 = new Lingkaran(4.0 , "Biru", "Hitam");
 
         //Menggunakan konstruktor tanpa parameter
         Persegi p2 = new Persegi();
@@ -36,7 +36,6 @@ public class MBangunDatar {
         // System.out.println("Warna : " + l1.getWarna());
         // System.out.println("Border : " + l1.getBorder());
         // System.out.println("Jumlah Sisi : " + l1.getJmlSisi());
-        l1.printInfo();
         System.out.println("Luas : " + l1.getLuas());
         System.out.println("Keliling : " + l1.getKeliling()); 
         
